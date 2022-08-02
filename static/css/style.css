@@ -1,0 +1,39 @@
+body { background: #3A3B3C; font-family: sans-serif; text-align: center; }
+.file-upload {width: 74%;}
+.upload-box {
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.submit-button { 
+    width: 75%; 
+    border-radius: 0; 
+    border: 0; 
+    border: 5px solid #FF9898;
+    background-color: #3A3B3C;
+    margin-top: 1rem;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0px 15px 25px -11px rgba(0, 0, 0, 0.12);
+}
+
+label {
+    border: 5px dashed #FFFFFF;
+    width: 73%;
+    line-height: 2000%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.footer {
+    position:fixed;
+   left:0px;
+   bottom:10px;
+   height:30px;
+   width:100%;
+   color: #FFFFFF;
+}
